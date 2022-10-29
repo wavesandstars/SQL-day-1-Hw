@@ -73,9 +73,4 @@ GROUP BY rating
 ORDER BY value_occurrence desc
 limit 1;
 
-select COUNT(amount), customer_id
-from payment 
-where customer_id between 380 and 430
-group by customer_id
-having COUNT () > 250
-ORDER BY customer_id DESC;
+
